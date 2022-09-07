@@ -1,0 +1,31 @@
+{"intents":[
+    {"tag":"saludos", 
+    "patterns":["Hola", "Cómo estás?", "Qué tal?", "Cómo te va?","Buenos dias","Buenas Tardes","Buenas noches","Buen dia","Hi","Hello","How are you?","What's up?","Good morning","Good afternoon","Good night","Good day"],
+    "responses":["Hola, Cómo puedo ayudarte?", "Hola, En qué puedo ayudarte?", "Hola, Qué necesitas?", "Hola, Cómo puedo ayudarte?"]
+    },
+    {"tag":"despedidas",
+    "patterns":["Adios", "Hasta luego", "Hasta pronto", "Hasta la vista", "Hasta mañana", "Hasta la proxima"],
+    "responses":["Hasta luego", "Hasta pronto", "Hasta la vista", "Hasta mañana", "Hasta la proxima"]
+    },
+    {"tag":"gracias",
+    "patterns":["Gracias", "Muchas gracias", "Gracias por todo", "Muchas gracias por todo"],
+    "responses":["De nada", "De nada, es un placer ayudarte", "De nada, es un placer"]
+    },
+    {"tag":"nombre",
+    "patterns":["Cómo te llamas?", "Cuál es tu nombre?", "Cómo te llamas"],
+    "responses":["Mi nombre es WikiBot", "Me llamo WikiBot", "WikiBot"]
+    },
+    {"tag":"edad",
+    "patterns":["cuantos años tienes", "cual es tu edad", "Cuántos años tienes?", "Cuántos años tienes"],
+    "responses":["Tengo 1 dia"]
+    },
+    {"tag":"creador",
+    "patterns":["Quién te ha creado?", "tienes creador?", "por quien fuiste desarrollado"],
+    "responses":["Mi creador es @MasamioNakada"]
+    },
+    {"tag":"insulto",
+    "patterns":["Bot idiota","estupido","mierda","wuebon","huevon","imbecil","tonto"],
+    "responses":["No me insultes"]
+    }
+
+]}
