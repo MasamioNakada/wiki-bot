@@ -67,6 +67,10 @@ def get_response(ints, intents_json):
             break
     return result
 
+def wikibot_test(msg):
+    ints = predict_class(msg, model)
+    return ints
+
 def wikibot(msg):
     ints = predict_class(msg, model)
     res = get_response(ints, intents)
